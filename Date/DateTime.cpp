@@ -155,7 +155,7 @@ Datetime convert_date(double julian) {
 	E = int((B - D) / 30.6001);
 	
 	result.day = int(B - D - int(30.6001 * E) + F);
-	if (E > 14) {
+	if (E < 14) {
 		result.month = E - 1;
 	}
 	else if (E == 14 || E == 15){

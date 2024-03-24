@@ -41,5 +41,8 @@ int main() {
 	// Проверка даты на валидность
 	cout << date.isDateValid() << endl;
 
-	cout << date + 15;
+	Datetime abc(12, 6, 2004);
+	Datetime new_date;
+	new_date = abc + 15;
+	cout << new_date;
 }
