@@ -489,3 +489,4 @@ Class-Rational.vcxproj.filters
 *.sln
 *.vcxproj
 *.filters
+*.json

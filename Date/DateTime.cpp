@@ -165,7 +165,7 @@ Datetime convert_date(double julian) {
 		result.year = C - 4716;
 	}
 	else if (result.month == 1 || result.month == 2) {
-		result.year = E - 4715;
+		result.year = C - 4715;
 	}
 	result.julian_date = result.Julian_days();
 
