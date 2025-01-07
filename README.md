@@ -52,6 +52,6 @@ brew install gcc
 
 Для компиляции программы выполните команду:
 ```bash
-g++ main.cpp -o main.cpp
+g++ main.cpp -o main
 ```
 
